@@ -17,7 +17,9 @@ The primary objective of this project is to demonstrate the process of creating 
 
 <h3>Prerequisites:</h3>
 Azure subscription with access to Azure Portal.
+<img src "">
 Azure Virtual Machine with a static website deployed.
+<img src "">
 Docker installed on the Azure Virtual Machine.
 
 <h3>Step 1: Create a Dockerfile</h3>
@@ -43,20 +45,19 @@ CMD ["nginx", "-g", "daemon off;"]
 Open a terminal on the Azure Virtual Machine and navigate to the directory containing the Dockerfile. Run the following command to build the Docker image:
 
 <h4>bash</h4>
-<b>Copy code</b></br>
 docker build -t your-image-name:tag .</br>
 Replace your-image-name with a meaningful name for your image, and tag with a version or label for the image.
 
 <h3>Step 3: Azure Container Registry Setup</h3>
 Navigate to the Azure Portal.
 Create a new Azure Container Registry.
+<img src "">
 Note the ACR login server URL, username, and password.
 
 <h3>Step 4: Login to Azure Container Registry</h3>
 Run the following command on the Azure Virtual Machine to log in to the ACR using the credentials obtained in Step 3:
 
 <h4>bash</h4>
-<b>Copy code</b></br>
 docker login <acr-login-server> -u <username> -p <password>
 Replace <acr-login-server>, <username>, and <password> with your ACR details.
 
@@ -64,10 +65,10 @@ Replace <acr-login-server>, <username>, and <password> with your ACR details.
 Tag the Docker image with the ACR login server and push it to the ACR:
 
 <h4>bash</h4>
-<b>Copy code</b></br>
 docker tag your-image-name:tag <acr-login-server>/your-image-name:tag
 docker push <acr-login-server>/your-image-name:tag
 
 <h3>Step 6: Deploy Container Instance from ACR</h3>
 Navigate to the Azure Portal.</br>
 Create a new Azure Container Install
+<img src "">
