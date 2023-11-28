@@ -1,7 +1,13 @@
 <h1>Grocery Shop Management System</h1>
 
+<h2>Industry:</h2>
+<h4>Ed-Tech</h4>
+
 <h2>Project Title:</h2>
 Dockerization and Deployment of a Static Website on Azure Container Instances
+
+<h2>Problem Statement/Opportunity:</h2>
+In the ed-tech industry, the challenge is not only to deliver educational content effectively but also to transform the learning experience for students globally. The opportunity arises in leveraging Azure's advanced capabilities, including App Service plans and Managed Identity, to develop an online groccery shop management web app and deploy seamlessly across channels, fostering an engaging and accessible learning environment.
 
 <h2>Documentation:</h2>
 Creating and Deploying a Docker Image for a Static Website on Azure Container Registry and Container Instances
@@ -11,6 +17,24 @@ Azure Container Registry
 Azure Container Instances
 
 <h2>Project Description:</h2>
+Solution Approach:
+By deploying a comprehensive software system leveraging Azure's cloud services, the project simplifies inventory tracking, streamlines checkout processes, and enables insightful analytics.
+
+Addressing the Need:
+The system tackles inventory discrepancies, eases checkout operations, and offers analytics for informed decision-making, addressing the challenges faced by traditional grocery stores.
+
+Purpose and Functionality Alignment:
+The project's purpose is to enhance operational efficiency in grocery shops by providing tools for inventory control, seamless transactions, and valuable insights, directly addressing the identified problem areas within this industry.
+
+<h2>Core Azure Services:</h2>
+1. Container Registries </br>
+2. Container Instances
+
+<h2> AI Services:</h2>
+1. Azure AI Services
+
+<h2>Additional Azure Services:</h2>
+1. Virtual Machine
 
 <h3>Objective:</h3>
 The primary objective of this project is to demonstrate the process of creating a Docker image from an Azure Virtual Machine (VM) containing a static website, pushing the Docker image to Azure Container Registry (ACR), and deploying a container instance using the image stored in ACR.
