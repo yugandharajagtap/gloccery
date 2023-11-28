@@ -29,12 +29,10 @@ The project's purpose is to enhance operational efficiency in grocery shops by p
 <h2>Core Azure Services:</h2>
 1. Container Registries </br>
 2. Container Instances
+3. Virtual Machines
 
 <h2> AI Services:</h2>
 1. Azure AI Services
-
-<h2>Additional Azure Services:</h2>
-1. Virtual Machine
 
 <h3>Objective:</h3>
 The primary objective of this project is to demonstrate the process of creating a Docker image from an Azure Virtual Machine (VM) containing a static website, pushing the Docker image to Azure Container Registry (ACR), and deploying a container instance using the image stored in ACR.
